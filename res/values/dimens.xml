@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen
+        name="title_size">12pt</dimen>
+    <dimen
+        name="desc_size">6pt</dimen>
+    <dimen
+        name="version_size">5pt</dimen>
+    <dimen
+        name="version_spacing">2pt</dimen>
+    <dimen
+        name="screen_title_size">13pt</dimen>
+    <dimen
+        name="menu_item_size">12pt</dimen>
+    <dimen
+        name="game_question_size">10pt</dimen>
+    <dimen
+        name="help_text_size">8pt</dimen>
+    <dimen
+        name="help_text_padding_left">55px</dimen>
+        <dimen
+        name="help_text_padding_right">10px</dimen>
+        <dimen
+        name="help_text_padding_bottom">40px</dimen>
+    <dimen
+        name="help_text_padding_top">10px</dimen>
+    <dimen
+        name="help_text_padding">15px</dimen>
+     
+     <!-- set the heading size for username, rank and points in the score screen -->
+     <dimen
+        name="score_heading_text_size">11pt</dimen>
+        
+     <dimen name="login_passwd_button_margin">300px</dimen>
+     
+      <dimen
+        name="avatar_size">75px</dimen>
+</resources>

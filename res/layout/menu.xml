@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- the main layout box for the menu screen -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkgrnd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- THE HEADER AREA (icons and title) -->
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+       
+       <!-- the icon to the top left of the screen - left of the title -->
+        <ImageView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ImageView_MenuHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"></ImageView>
+        
+        <!-- the title text between the two icons -->
+        <TextView
+            android:id="@+id/CustomFont"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:textSize="@dimen/screen_title_size"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal|center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="@android:color/white"
+            android:textColor="@color/title_color"></TextView>
+        
+        <!-- the icon to the top right of the screen - right of the title -->
+        <ImageView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ImageView_MenuHeader2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"></ImageView>
+    </RelativeLayout>
+	
+	<!-- THE CONTENT AREA - menu items -->   
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+       
+       <!-- the list view contains all items in the menu list -->
+        <ListView
+            android:layout_height="wrap_content"
+            android:id="@+id/ListView_Menu"
+            android:layout_width="fill_parent"
+            android:listSelector="@drawable/textured"
+            android:layout_alignParentTop="true"></ListView>
+    </RelativeLayout>
+</LinearLayout>

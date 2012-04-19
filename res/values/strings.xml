@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Generic App String Information (predominantly for splash screen) -->
+    <string name="app_name">Scene Fiend</string>
+    <string name="app_desc">The Ultimate Quiz Game for Film Fiends!</string>
+    <string name="app_version_info">Version 1.0.0\nCopyright © 2012 Silke Stienen-Durand\n All Rights Reserved</string>
+    
+    <!-- Title screens -->
+    <string name="help">Help Me!</string>
+    <string name="splash">Splash</string>
+    <string name="settings">Settings</string>
+    <string name="game">Game</string>
+    
+    <!-- Menu Strings -->
+    <string name="menu">Main Menu</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_play">Play</string>
+    <string name="menu_item_scores">Scores</string>
+    <string name="menu_item_help">Help Me!</string>
+    <string name="menu_item_login">Login</string>
+    
+    <!--  Scores Screen Strings-->
+    <string name="scores">Scores</string>
+    <string name="all_scores">"All Scores"</string>
+    <string name="my_scores">"My Scores"</string>
+    <string name="high_scores">"Top Ten"</string>
+    <string name="no_scores">"No Scores Can Be Shown Here"</string>
+    <string name="username">"Username"</string>
+    <string name="fiend">"Fiend of the Day"</string>
+    <string name="rank">"Ranking"</string>
+    <string name="score">"Score"</string>
+    <string name="wait_msg">"Retrieving Scores..."</string>
+    <string name="wait_title">"Loading..."</string>
+    
+    <!-- Login and Registration Strings-->
+    <string name="login">Join Us</string>
+    <string name="login_username">Username:</string>
+    <string name="login_email">Email:</string>
+    
+    <string name="login_gender">Gender:</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_neutral">Prefer Not To Say</string>
+    
+    <string name="login_button_pwd">Set Password</string>
+    <string name="login_password">Password:</string>
+    <string name="login_password2">Password (again):</string>
+    <string name="login_pwd_set">Password Set</string>
+    <string name="login_pwd_not_set">No Password Set</string>
+    <string name="login_pwd_not_equal">Passwords do not match, please try again.</string>
+    <string name="login_pwd_equal">Passwords match.</string>
+    <string name="set_password_string">Set Password</string>
+    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_questions">No more questions available. Try back later.</string>
+    <string name="exit">Exit</string>
+</resources>

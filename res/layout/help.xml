@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkgrnd">
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ImageView_Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"></ImageView>
+        <TextView
+            android:id="@+id/CustomFont"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal|center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="@android:color/white"
+            android:textColor="@color/title_color" android:textSize="@dimen/screen_title_size"></TextView>
+        <ImageView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ImageView_Header2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"></ImageView>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/help_text_size" android:layout_height="fill_parent" android:textColorLink="@color/logo_color" android:isScrollContainer="true" android:fadingEdgeLength="25px" android:autoLink="all" android:scrollbarStyle="outsideOverlay" android:id="@+id/TextView_HelpText" android:bufferType="spannable" android:fadingEdge="vertical" android:scrollbars="vertical" android:linksClickable="true" android:drawablePadding="5px" android:layout_width="match_parent" android:paddingLeft="@dimen/help_text_padding_left" android:paddingTop="@dimen/help_text_padding_top" android:paddingBottom="@dimen/help_text_padding_bottom" android:paddingRight="@dimen/help_text_padding_right" android:textColor="@color/help_text"></TextView>
+</LinearLayout>

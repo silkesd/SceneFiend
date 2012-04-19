@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+		This is a mock score XML chunk
+	-->
+<scores>
+    <score
+    	fiend="Fiend of the Day"
+        username="LED"
+        score="12345"
+        rank="1" />
+    <score
+        username="SAC"
+        score="12344"
+        rank="2" />
+    <score
+        username="NAD"
+        score="12339"
+        rank="3" />
+    <score
+        username="ASH"
+        score="12335"
+        rank="4" />
+    <score
+        username="KPM"
+        score="12245"
+        rank="5" />
+    <score
+        username="SDB"
+        score="12222"
+        rank="6" />
+    <score
+        username="LOL"
+        score="11667"
+        rank="7" />
+    <score
+        username="AFK"
+        score="11345"
+        rank="8" />
+    <score
+        username="BRB"
+        score="11234"
+        rank="9" />
+    <score
+        username="BUG"
+        score="10000"
+        rank="10" />
+</scores>

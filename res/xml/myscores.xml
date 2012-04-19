@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+		This is a mock score XML chunk
+	-->
+<scores>
+    <score
+        username="BAG"
+        score="12345"
+        rank="101" />
+    <score
+        username="BET"
+        score="12344"
+        rank="201" />
+    <score
+        username="SIM"
+        score="12339"
+        rank="3222" />
+    <score
+        username="TUG"
+        score="12335"
+        rank="44444" />
+    <score
+        username="RUG"
+        score="12245"
+        rank="555555" />
+    <score
+        username="YUK"
+        score="12222"
+        rank="6666666" />
+    <score
+        username="YAK"
+        score="11667"
+        rank="77777777" />
+    <score
+        username="WAH"
+        score="11345"
+        rank="888888888" />
+    <score
+        username="FOG"
+        score="11234"
+        rank="9999999999" />
+    <score
+        username="LUG"
+        score="10000"
+        rank="100000000000" />
+</scores>
